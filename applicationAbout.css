@@ -13,6 +13,7 @@ padding-right: 150px;
     font-size: 20px;
     font-family: 'Lato', sans-serif;
     color: black;
+    text-align: center;
 }
 code{
 	padding: 2px 4px;
@@ -86,7 +87,7 @@ div.main-heading{
 	margin: auto;
 	margin-bottom: 10px;
 /*padding-top: 30px;*/
-max-width:1895px;
+max-width: 99%;
 font-size: 90px;
 font-family: 'Lato', sans-serif;
   font-weight: 800;
@@ -114,7 +115,7 @@ div.main-body{
 	margin: auto;
 	margin-bottom: 10px;
 padding-top: 30px;
-max-width: 780px;
+max-width: 45%;
    
 	font-size: 18;
 	font-weight: 400;
@@ -128,8 +129,8 @@ a.name-icon{
 	font-weight: 300;
 	font-size: 18;
 	text-align: center;
-	max-width: 40;
-	max-height: 40;
+	max-width: 3%;
+	max-height: 3%;
 	color: #f4eef7;
 }
 a.name-icon:hover{
@@ -160,6 +161,10 @@ nav{
 }
 .btn-inverse:active{
 	color: black;
+}
+
+th, td{
+    padding-right: 10px;
 }
 
 
@@ -229,8 +234,8 @@ background-repeat: no-repeat;
 /*these two lines below, are for the floaty thing*/
 background-attachment: fixed;
 background-size: 2400px; 
-max-width: 3400px;
-max-height: 3800px;
+max-width: 180%;
+max-height: 355%;
 margin: 0px;
 opacity: 0.7;
 }
@@ -241,9 +246,9 @@ background-image: url("kx.jpg");
 background-repeat: no-repeat;
 /*these two lines below, are for the floaty thing*/
 
-background-size: 240px; 
-max-width: 340px;
-max-height: 380px;
+//background-size: 240px; 
+max-width: 17.8%;
+max-height: 35%;
 margin: 0px;
 opacity: 0.7;
 }
@@ -253,10 +258,9 @@ div.container-wrapper{
   color: black;
   padding-top: 20px;
   padding-bottom: 60px;
-
 }
 div.container-body{
-	max-width: 900px;
+  width: 52%;
   padding: 10px;
   margin: auto;
   color: black;
@@ -275,6 +279,7 @@ div.container-body h2{
   text-align: left;
 }
 div .container-body h3{
+  color: black;
   font-weight: 300;
 }
 div .container-body h4{
@@ -324,6 +329,6 @@ img.thumbnail{
   margin-right: 10px;
 }
 img.thumbnail-img{
-  max-height: 200px;
+  max-height: 22%;
   max-width: 100%;
 }
