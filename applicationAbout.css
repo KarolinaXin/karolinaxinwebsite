@@ -39,21 +39,50 @@ ah1{
 ah2{
    color:  #f7afea;
   font-family: 'Lato', sans-serif;
-  font-weight: 300;
+  font-weight: 400;
   font-size: 25;
   text-align: center;
 }
 
 h1{
+     text-align: center;
   font-family: 'Lato', sans-serif;
   font-weight: 300;
   text-align: center;
 }
 h2{
+    text-align: center;
   font-weight: 300;
+  text-size-adjust: 50px;
 }
 h3{
   margin-top: 0px;
+  font-weight: 300;
+  font-size: 20px;
+  padding-left: 300px;
+  padding-right: 300px;
+   font-family: 'Lato', sans-serif;
+}
+h33{
+    
+  padding-left: 30px;
+  padding-right: 200px;
+    color: black;
+  margin-top: 0px;
+  font-weight: 300;
+  font-size: 20px;
+   font-family: 'Lato', sans-serif;
+}
+h4{
+  font-weight: 300;
+  font-style: italic;
+  padding-left: 300px;
+}
+h5{
+    text-align: center;
+    font-size: 19;
+  margin-top: 0px;
+  font-weight: 250;
 }
 a{
 	color: #f7eef1;
@@ -87,7 +116,7 @@ div.main-heading{
 	margin: auto;
 	margin-bottom: 10px;
 /*padding-top: 30px;*/
-max-width: 99%;
+max-width: 1800px;
 font-size: 90px;
 font-family: 'Lato', sans-serif;
   font-weight: 800;
@@ -99,7 +128,7 @@ font-family: 'Lato', sans-serif;
 }
 div.main-body1 {
     font-size: 18;
-    text-align: left;
+    text-align: center;
 }
 
 div.main-heading b{
@@ -115,7 +144,7 @@ div.main-body{
 	margin: auto;
 	margin-bottom: 10px;
 padding-top: 30px;
-max-width: 45%;
+max-width: 850px;
    
 	font-size: 18;
 	font-weight: 400;
@@ -136,6 +165,7 @@ a.name-icon{
 a.name-icon:hover{
 	background-color: rgba(0,0,0,0.1);
 	text-decoration: none;
+    text-algin: center;
 }
 nav{
 	height: 50px;
@@ -147,7 +177,7 @@ nav{
 	font-weight: 400;
 	border-radius: 10px;
   color: white;
-
+  
 }
 .btn-inverse{
 	font-family: 'Lato', sans-serif;
@@ -234,8 +264,8 @@ background-repeat: no-repeat;
 /*these two lines below, are for the floaty thing*/
 background-attachment: fixed;
 background-size: 2400px; 
-max-width: 180%;
-max-height: 355%;
+max-width: 3400px;
+max-height: 6800px;
 margin: 0px;
 opacity: 0.7;
 }
@@ -247,8 +277,8 @@ background-repeat: no-repeat;
 /*these two lines below, are for the floaty thing*/
 
 //background-size: 240px; 
-max-width: 17.8%;
-max-height: 35%;
+max-width: 340px; 
+max-height: 370px;
 margin: 0px;
 opacity: 0.7;
 }
@@ -260,7 +290,7 @@ div.container-wrapper{
   padding-bottom: 60px;
 }
 div.container-body{
-  width: 52%;
+  width: 800px;
   padding: 10px;
   margin: auto;
   color: black;
@@ -273,10 +303,11 @@ div .container-body h1{
   text-align: left;
   margin-top: 60px;
   font-size: 48px;
+  padding-left: 300px;
 }
 div.container-body h2{
   text-transform: uppercase;
-  text-align: left;
+  text-align: center;
 }
 div .container-body h3{
   color: black;
@@ -285,7 +316,7 @@ div .container-body h3{
 div .container-body h4{
   font-weight: 300;
   font-style: italic;
-}
+}  
 .nav li a:focus{
   outline: 0;
 	background-color: rgba(0,0,0,0);
@@ -308,6 +339,7 @@ i.devicon{
 }
 h2.entry{
   float: left;
+  padding-left: 300px;
 }
 h2.devicons{
   float: right;
@@ -326,9 +358,9 @@ img.thumbnail{
 
 }
 .glyphicon-padded{
-  margin-right: 10px;
+  margin-right: 20px;
 }
 img.thumbnail-img{
-  max-height: 22%;
+  max-height: 200px;
   max-width: 100%;
 }
