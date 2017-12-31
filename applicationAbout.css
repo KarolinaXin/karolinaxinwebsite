@@ -49,6 +49,7 @@ h1{
   font-family: 'Lato', sans-serif;
   font-weight: 300;
   text-align: center;
+  color: rebeccapurple;
 }
 h2{
     text-align: center;
@@ -298,7 +299,7 @@ div.container-body{
   font-weight: 300;
 }
 div .container-body h1{
-	color: #8d6dbc;
+	color: rebeccapurple;
   text-transform: uppercase;
   text-align: left;
   margin-top: 60px;
@@ -308,6 +309,7 @@ div .container-body h1{
 div.container-body h2{
   text-transform: uppercase;
   text-align: center;
+
 }
 div .container-body h3{
   color: black;
